@@ -33,5 +33,3 @@ If something goes up here, it’s because I believe it and I've thought about it
 ## What you can expect here
 
 Likely short-form articles that are hastily thought through. I'll be heading to Silicon Valley in April with the Network Field Day as a delegate for the 40th (I think) event.
-
-If you want to challenge me, start with this: **Where do you personally draw the line between “AI-assisted” and “AI-authored”?**
