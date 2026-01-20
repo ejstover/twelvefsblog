@@ -4,7 +4,7 @@ description: "Why I built this blog and how I plan to use it as a learning sandb
 pubDate: 2026-01-19
 ---
 
-I built this blog for the same reason I build most things in my lab: I wanted to try something new. It lives on GitHub and ships via GitHub Actions.
+I built this blog for the same reason I build most things in my lab: I wanted to try something new. It lives on GitHub and ships to GitHub Pages via GitHub Actions.
 
 ## Why “ff.ff.ff.ff.ff.ff”?
 
