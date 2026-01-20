@@ -14,13 +14,13 @@ A broadcast address is a special type of networking address reserved for sending
 
 Git has been a significant blind spot for me. I understand the idea of Git and can repeat some key terms, but in reality I need hands-on experience.
 
-This blog is my sandbox for that. Every post is a change. Every change is a commit. Every commit is practice.
+This blog is my sandbox for that.
 
 ## AI: force multiplier, not a substitute
 
-I’m also using this blog to work out where AI fits into my workflow.
+I’m also using this blog to work out where AI fits into my life both personally and professionally.
 
-Frankly, I'm tired of hearing the term "AI slop." Yes, there is plenty of AI slop being created. However, don't let that distract you from truly understanding the impact of LLMs.
+Frankly, I'm tired of hearing the term "AI slop." Yes, there is plenty of AI slop being created. However, don't let that distract you from truly understanding the impact of the technology. It's here and it's important.
 
 Here’s the line I’m trying to walk:
 
