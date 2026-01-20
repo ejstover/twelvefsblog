@@ -12,14 +12,87 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	</head>
 	<body>
 		<Header />
-		<main>
-			<h1>Welcome</h1>
-			<p>
-				<a href="https://www.linkedin.com/in/twelvefs">LinkedIn</a>
-				·
-				<a href="https://github.com/twelvefs">GitHub</a>
-			</p>
+		<main class="home">
+			<section class="hero">
+				<img
+					class="avatar"
+					src="https://github.com/ejstover.png?size=200"
+					width="120"
+					height="120"
+					alt="Portrait of Eric Stover"
+					loading="lazy"
+					decoding="async"
+				/>
+				<div class="hero-text">
+					<h1>Eric Stover</h1>
+					<p class="tagline">{SITE_DESCRIPTION}</p>
+					<p class="social-links">
+						<a
+							href="https://www.linkedin.com/in/ejstover"
+							target="_blank"
+							rel="noreferrer"
+						>
+							LinkedIn
+						</a>
+						·
+						<a href="https://github.com/ejstover" target="_blank" rel="noreferrer">
+							GitHub
+						</a>
+					</p>
+				</div>
+			</section>
 		</main>
 		<Footer />
 	</body>
 </html>
+<style>
+	.home {
+		width: 720px;
+		max-width: calc(100% - 2em);
+		margin: 0 auto;
+		padding: 4rem 0 6rem;
+	}
+	.hero {
+		display: flex;
+		align-items: center;
+		gap: 2rem;
+	}
+	.avatar {
+		border-radius: 999px;
+		border: 1px solid rgba(var(--gray), 0.3);
+		box-shadow: var(--box-shadow);
+	}
+	.hero-text {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+	.hero-text h1 {
+		margin: 0;
+		font-size: 2.5rem;
+	}
+	.tagline {
+		margin: 0;
+		color: rgb(var(--gray-dark));
+	}
+	.social-links {
+		margin: 0;
+		color: rgb(var(--gray));
+	}
+	.social-links a {
+		color: inherit;
+		text-decoration: none;
+	}
+	.social-links a:hover {
+		color: rgb(var(--accent));
+	}
+	@media (max-width: 720px) {
+		.home {
+			padding: 3rem 0 4rem;
+		}
+		.hero {
+			flex-direction: column;
+			text-align: center;
+		}
+	}
+</style>
