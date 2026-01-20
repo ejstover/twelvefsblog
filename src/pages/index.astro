@@ -3,6 +3,10 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const latest = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
 ---
 
 <!doctype html>
@@ -41,6 +45,20 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 					</p>
 				</div>
 			</section>
+			<section class="latest">
+				<h2 class="latest-title">Latest post</h2>
+				{latest ? (
+					<div class="latest-card">
+						<h3>{latest.data.title}</h3>
+						<p class="latest-description">{latest.data.description}</p>
+						<a class="latest-link" href={`/blog/${latest.id}/`}>
+							Read the latest post →
+						</a>
+					</div>
+				) : (
+					<p class="latest-empty">No posts yet.</p>
+				)}
+			</section>
 		</main>
 		<Footer />
 	</body>
@@ -70,6 +88,39 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	.hero-text h1 {
 		margin: 0;
 		font-size: 2.5rem;
+	}
+	.latest {
+		margin-top: 3rem;
+		padding-top: 2rem;
+		border-top: 1px solid rgba(var(--gray), 0.2);
+	}
+	.latest-title {
+		margin: 0 0 1rem;
+		font-size: 1.5rem;
+	}
+	.latest-card {
+		display: grid;
+		gap: 0.75rem;
+	}
+	.latest-card h3 {
+		margin: 0;
+		font-size: 1.75rem;
+	}
+	.latest-description {
+		margin: 0;
+		color: rgb(var(--gray-dark));
+	}
+	.latest-link {
+		color: rgb(var(--accent));
+		text-decoration: none;
+		font-weight: 600;
+	}
+	.latest-link:hover {
+		text-decoration: underline;
+	}
+	.latest-empty {
+		margin: 0;
+		color: rgb(var(--gray));
 	}
 	.tagline {
 		margin: 0;
