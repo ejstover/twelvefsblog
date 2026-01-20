@@ -1,7 +1,7 @@
 ---
 title: "ff.ff.ff.ff.ff.ff"
 description: "Why I built this blog and how I plan to use it as a learning sandbox."
-pubDate: 2025-03-10
+pubDate: 2025-01-19
 ---
 
 I built this blog for the same reason I build most things in my lab: I wanted to try something new. It lives on GitHub and ships via GitHub Actions.
