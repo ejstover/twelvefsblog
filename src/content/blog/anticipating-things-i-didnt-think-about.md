@@ -20,7 +20,7 @@ Instead of building tightly defined functions, MCP lets us give an LLM the **bui
 
 * **Tools**: Simple, generic actions like `get_sites()` or `get_devices()`.
 * **Resources**: Dynamic data sources that enrich the model. This could be a cache of UUIDs to optimize speed, or a translation layer that helps the model understand that a “Wireless Access Point,” an “AP,” and a “WAP” are all the same thing.
-* **Prompts**: The steering wheel. They connect the tools and resources, providing guidelines like “only use GET endpoints” or “consult specific resources before planning the audit.”
+* **Prompts**: The steering wheel. They connect the tools and resources while influecning the model to make certain decisions. Prompts provide guidelines like “only use GET endpoints” or “consult specific resources before planning the audit.”
 
 ## This is the way (for now)
 
