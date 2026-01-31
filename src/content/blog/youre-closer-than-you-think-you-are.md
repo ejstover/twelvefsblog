@@ -42,10 +42,8 @@ We see the pull request has been generated in GitHub along with comments. From h
 
 Hopefully you have Python and Git installed. If so, run `git clone -b <branch_name> <repository_url>.git`.
 
-After that, you have a working local repo and can test what you’ve created.
-
 ![Local repo cloned and ready for testing.](/blog/youre-closer-than-you-think-you-are/localrepoclone.png)
 
-Once the repo is ready, run the script to verify the end-to-end flow.
+After that, you have a working local repo and can test what you’ve created.
 
 ![Successful test run output.](/blog/youre-closer-than-you-think-you-are/testrun.png)
