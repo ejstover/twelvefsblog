@@ -1,7 +1,7 @@
 ---
 title: "You’re closer than you think you are"
 description: "How process documentation turns into an automation blueprint."
-pubDate: 2026-01-21
+pubDate: 2026-01-31
 ---
 
 Last week I was in the field deploying new services. The deployment went very smoothly with very few in-the-moment changes or follow-ups. Part of the prep was building a very detailed process document. That document captured each step and each expected outcome. That kind of documentation isn’t glamorous. It’s often overlooked. But it turns out it’s the most important input we had. We built it by “imagining” each step we’d take in the moment.
