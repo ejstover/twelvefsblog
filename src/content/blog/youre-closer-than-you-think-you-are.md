@@ -48,4 +48,4 @@ After that, you have a working local repo and can test what you’ve created.
 
 ![Successful test run output.](/blog/youre-closer-than-you-think-you-are/testrun.png)
 
-Want a concrete example to dig into? Check out the repo for the Cisco config automation work here: https://github.com/ejstover/12f/tree/2026-01-31/create-python-automation-for-cisco-configs.
+Check out the repo referenced: https://github.com/ejstover/12f/tree/2026-01-31/create-python-automation-for-cisco-configs.
