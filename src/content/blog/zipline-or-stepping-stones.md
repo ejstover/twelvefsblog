@@ -4,7 +4,7 @@ description: "The true risk isn’t the size of the change. It’s how long you 
 pubDate: 2026-02-16
 ---
 
-You’re standing at the edge of a stream. You need to get to the other side, and getting wet isn’t an option. You scan the area and see two possible ways across. There’s a zipline stretched overhead — fast, direct, clearly built for this specific crossing. Or there’s a line of stepping stones that would require a series of careful hops. Both paths could work.
+You’re standing at the edge of a stream. You need to get to the other side, and getting wet isn’t an option. You scan the area and see two possible ways across. There’s a zipline stretched overhead its fast, direct, clearly built for this specific crossing. Or there’s a line of stepping stones that would require a series of careful hops. Both paths could work.
 
 Most of us instinctively lean toward the stepping stones. Small steps feel safer. You stay close to the water. You control each move. But every hop still carries risk. The rocks could be slick. You could lose your balance halfway across.
 
