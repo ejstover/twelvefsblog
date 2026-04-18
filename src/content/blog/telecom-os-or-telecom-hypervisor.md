@@ -1,6 +1,6 @@
 ---
-title: "LightyearAI @ Network Field Day 40."
-description: "LightyearAI, helping you send fewer follow up emails one circuit at a time."
+title: "Lightyear @ Network Field Day 40."
+description: "Lightyear, helping you send fewer follow up emails one circuit at a time."
 pubDate: 2026-04-17
 ---
 
